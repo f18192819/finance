@@ -1,0 +1,14 @@
+initial_equity: 1000000
+risk_per_trade: 0.01
+max_single_trade_risk: 0.01
+max_correlated_group_risk: 0.02
+max_total_open_risk: 0.04
+weekly_loss_limit: 0.04
+consecutive_loss_review_threshold: 4
+max_gross_exposure: 1.0
+max_positions: 8
+correlation_threshold: 0.8
+correlation_window: 60
+trailing_atr: 0.0
+max_holding_bars: 60
+

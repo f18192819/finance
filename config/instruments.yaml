@@ -1,0 +1,72 @@
+- symbol: '510300'
+  name: 娌繁300ETF
+  market: ETF
+  provider_symbol: '1.510300'
+  tick_size: 0.001
+  sector: BROAD_MARKET
+- symbol: '600519'
+  name: 璐靛窞鑼呭彴
+  market: A_SHARE
+  provider_symbol: '1.600519'
+  sector: CONSUMER
+- symbol: AAPL
+  name: Apple
+  market: US_STOCK
+  currency: USD
+  timezone: America/New_York
+  lot_size: 1
+  settlement_days: 0
+  group: US_EQUITY
+  sector: TECHNOLOGY
+  sessions: [['09:30', '16:00']]
+- symbol: SPY
+  name: SPDR S&P 500 ETF
+  market: US_STOCK
+  currency: USD
+  timezone: America/New_York
+  lot_size: 1
+  settlement_days: 0
+  group: US_EQUITY
+  sector: BROAD_MARKET
+  sessions: [['09:30', '16:00']]
+- symbol: '000300'
+  name: 娌繁300鎸囨暟锛堜粎鐮旂┒锛?  market: INDEX
+  provider_symbol: '1.000300'
+  tradable: false
+- symbol: RB_CONT
+  name: 铻虹汗閽㈣繛缁紙绂佹鐩存帴鎴愪氦鍥炴祴锛?  market: FUTURES
+  provider_symbol: '113.rb'
+  continuous: true
+  lot_size: 1
+  multiplier: 10
+  tick_size: 1
+  margin_rate: 0.15
+  shortable: true
+  settlement_days: 0
+  group: CN_METALS
+- symbol: BTCUSD
+  name: Bitcoin锛堝湪绾挎湭鏀寔锛?  market: CRYPTO
+  currency: USD
+  timezone: UTC
+  lot_size: 0.001
+  settlement_days: 0
+  group: CRYPTO
+  sessions: [['00:00', '24:00']]
+- symbol: EURUSD
+  name: EURUSD锛堝湪绾挎湭鏀寔锛?  market: FOREX
+  currency: USD
+  timezone: UTC
+  lot_size: 1000
+  tick_size: 0.00001
+  settlement_days: 0
+  group: FX
+  sessions: [['00:00', '24:00']]
+- symbol: XAUUSD
+  name: Gold锛堝湪绾挎湭鏀寔锛?  market: COMMODITY
+  currency: USD
+  timezone: UTC
+  lot_size: 1
+  settlement_days: 0
+  group: METALS
+  sessions: [['00:00', '24:00']]
+

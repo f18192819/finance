@@ -1,0 +1,27 @@
+# Explicit research cost assumptions, not verified broker tariffs.
+DEFAULT:
+  commission_bps: 3
+  minimum_commission: 0
+  slippage_bps: 5
+  spread_bps: 2
+  exchange_bps: 0
+  sell_tax_bps: 0
+  annual_borrow_bps: null
+  annual_financing_bps: null
+  funding_bps_daily: null
+  unmodeled: [historical_fee_changes, market_impact, queue_priority]
+A_SHARE:
+  commission_bps: 3
+  minimum_commission: 5
+  sell_tax_bps: 5
+  unmodeled: [historical_stamp_tax_changes, exchange_fee_schedule, corporate_actions, price_limit_queue]
+ETF:
+  commission_bps: 3
+  minimum_commission: 5
+  unmodeled: [exchange_fee_schedule, distributions, price_limit_queue]
+US_STOCK:
+  commission_bps: 3
+  unmodeled: [regulatory_fees, corporate_actions, borrow_availability]
+FUTURES:
+  unmodeled: [contract_specific_fees, variation_margin, historical_margin_schedule, roll_cost]
+

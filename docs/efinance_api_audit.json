@@ -1,0 +1,155 @@
+{
+  "version": "0.5.5.2",
+  "apis": [
+    {
+      "method": "stock.get_quote_history",
+      "signature": "(stock_codes: Union[str, List[str]], beg: str = '19000101', end: str = '20500101', klt: int = 101, fqt: int = 1, market_type: Optional[efinance.common.config.MarketType] = None, suppress_error: bool = False, use_id_cache: bool = True, **kwargs) -> Union[pandas.core.frame.DataFrame, Dict[str, pandas.core.frame.DataFrame]]",
+      "parameters": {
+        "stock_codes": "600519",
+        "beg": "20250101",
+        "end": "20251231",
+        "klt": 101,
+        "fqt": 0,
+        "use_id_cache": false
+      },
+      "status": "ERROR",
+      "error": "efinance stock.get_quote_history failed: efinance\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+    },
+    {
+      "method": "stock.get_realtime_quotes",
+      "signature": "(fs: Union[str, List[str]] = None, **kwargs) -> pandas.core.frame.DataFrame",
+      "parameters": {
+        "fs": "ETF"
+      },
+      "status": "SUPPORTED",
+      "rows": 1660,
+      "columns": [
+        "鑲＄エ浠ｇ爜",
+        "鑲＄エ鍚嶇О",
+        "娑ㄨ穼骞?,
+        "鏈€鏂颁环",
+        "鏈€楂?,
+        "鏈€浣?,
+        "浠婂紑",
+        "娑ㄨ穼棰?,
+        "鎹㈡墜鐜?,
+        "閲忔瘮",
+        "鍔ㄦ€佸競鐩堢巼",
+        "鎴愪氦閲?,
+        "鎴愪氦棰?,
+        "鏄ㄦ棩鏀剁洏",
+        "鎬诲競鍊?,
+        "娴侀€氬競鍊?,
+        "琛屾儏ID",
+        "甯傚満绫诲瀷",
+        "鏇存柊鏃堕棿",
+        "鏈€鏂颁氦鏄撴棩"
+      ],
+      "sample": [
+        {
+          "鑲＄エ浠ｇ爜": "589200",
+          "鑲＄エ鍚嶇О": "绉戝垱200ETF宸ラ摱",
+          "娑ㄨ穼骞?: 4.01,
+          "鏈€鏂颁环": 1.194,
+          "鏈€楂?: 1.201,
+          "鏈€浣?: 1.101,
+          "浠婂紑": 1.161,
+          "娑ㄨ穼棰?: 0.046,
+          "鎹㈡墜鐜?: 7.39,
+          "閲忔瘮": 0.61,
+          "鍔ㄦ€佸競鐩堢巼": "-",
+          "鎴愪氦閲?: 29925,
+          "鎴愪氦棰?: 3420963.0,
+          "鏄ㄦ棩鏀剁洏": 1.148,
+          "鎬诲競鍊?: 48365358,
+          "娴侀€氬競鍊?: 48365358,
+          "琛屾儏ID": "1.589200",
+          "甯傚満绫诲瀷": "娌狝",
+          "鏇存柊鏃堕棿": "2026-11-13 16:11:55",
+          "鏈€鏂颁氦鏄撴棩": "2026-11-13"
+        },
+        {
+          "鑲＄エ浠ｇ爜": "513350",
+          "鑲＄エ鍚嶇О": "鏍囨櫘娌规皵ETF瀵屽浗",
+          "娑ㄨ穼骞?: 3.08,
+          "鏈€鏂颁环": 1.338,
+          "鏈€楂?: 1.343,
+          "鏈€浣?: 1.308,
+          "浠婂紑": 1.315,
+          "娑ㄨ穼棰?: 0.04,
+          "鎹㈡墜鐜?: 177.45,
+          "閲忔瘮": 1.97,
+          "鍔ㄦ€佸競鐩堢巼": "-",
+          "鎴愪氦閲?: 15788490,
+          "鎴愪氦棰?: 2098845897.0,
+          "鏄ㄦ棩鏀剁洏": 1.298,
+          "鎬诲競鍊?: 1190480148,
+          "娴侀€氬競鍊?: 1190480148,
+          "琛屾儏ID": "1.513350",
+          "甯傚満绫诲瀷": "娌狝",
+          "鏇存柊鏃堕棿": "2026-11-13 16:11:41",
+          "鏈€鏂颁氦鏄撴棩": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "method": "fund.get_quote_history",
+      "signature": "(fund_code: str, pz: int = 40000) -> pandas.core.frame.DataFrame",
+      "parameters": {
+        "fund_code": "161725",
+        "pz": 10
+      },
+      "status": "SUPPORTED",
+      "rows": 10,
+      "columns": [
+        "鏃ユ湡",
+        "鍗曚綅鍑€鍊?,
+        "绱鍑€鍊?,
+        "娑ㄨ穼骞?
+      ],
+      "sample": [
+        {
+          "鏃ユ湡": "2026-11-13",
+          "鍗曚綅鍑€鍊?: 0.5802,
+          "绱鍑€鍊?: 2.2963,
+          "娑ㄨ穼骞?: 2.13
+        },
+        {
+          "鏃ユ湡": "2026-11-12",
+          "鍗曚綅鍑€鍊?: 0.5681,
+          "绱鍑€鍊?: 2.2842,
+          "娑ㄨ穼骞?: 0.32
+        }
+      ],
+      "ohlcv_compatible": false,
+      "note": "NAV data cannot be converted to tradable OHLCV"
+    },
+    {
+      "method": "futures.get_quote_history",
+      "signature": "(quote_ids: Union[str, List[str]], beg: str = '19000101', end: str = '20500101', klt: int = 101, fqt: int = 1, **kwargs) -> pandas.core.frame.DataFrame",
+      "parameters": {
+        "quote_ids": "113.rb",
+        "beg": "20250101",
+        "end": "20251231",
+        "klt": 101,
+        "fqt": 0
+      },
+      "status": "ERROR",
+      "error": "efinance futures.get_quote_history failed: ce\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=113.rb&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+    },
+    {
+      "method": "futures.get_realtime_quotes",
+      "signature": "() -> pandas.core.frame.DataFrame",
+      "parameters": {},
+      "status": "ERROR",
+      "error": "efinance futures.get_realtime_quotes failed:  line 194, in get_realtime_quotes\n    df = get_realtime_quotes_by_fs(fs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\utils\\__init__.py\", line 48, in run\n    values = func(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\common\\getter.py\", line 79, in get_realtime_quotes_by_fs\n    responses = list(tasks)\n                ^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 619, in result_iterator\n    yield _result_or_cancel(fs.pop())\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 317, in _result_or_cancel\n    return fut.result(timeout)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\common\\getter.py\", line 57, in get_by_page\n    ).json()\n      ^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\models.py\", line 980, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "method": "futures.get_futures_base_info",
+      "signature": "() -> pandas.core.frame.DataFrame",
+      "parameters": {},
+      "status": "ERROR",
+      "error": "efinance futures.get_futures_base_info failed:  line 194, in get_realtime_quotes\n    df = get_realtime_quotes_by_fs(fs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\utils\\__init__.py\", line 48, in run\n    values = func(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\common\\getter.py\", line 79, in get_realtime_quotes_by_fs\n    responses = list(tasks)\n                ^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 619, in result_iterator\n    yield _result_or_cancel(fs.pop())\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 317, in _result_or_cancel\n    return fut.result(timeout)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\anaconda3\\Lib\\concurrent\\futures\\thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\common\\getter.py\", line 57, in get_by_page\n    ).json()\n      ^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\models.py\", line 980, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    }
+  ]
+}

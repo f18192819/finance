@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-market-quant-research"
+version = "0.1.0"
+description = "Auditable efinance swing trading research, backtesting and manual trade plans"
+requires-python = ">=3.11"
+dependencies = ["efinance==0.5.5.2", "pandas>=2.2,<3", "numpy>=1.26,<3", "pyarrow>=16", "duckdb>=1.4,<2", "PyYAML>=6", "streamlit>=1.46,<2", "plotly>=5.24,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[project.scripts]
+quant = "quant_research.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["quant_research*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+

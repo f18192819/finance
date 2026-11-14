@@ -1,0 +1,277 @@
+Warning: truncated output (original token count: 12786)
+Total output lines: 322
+
+[
+  {
+    "market": "ETF",
+    "symbol": "510300",
+    "timeframe": "1D",
+    "checked_at": "2026-11-14 13:21:47.998072+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.510300&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "ETF",
+    "symbol": "510300",
+    "timeframe": "1H",
+    "checked_at": "2026-11-14 13:21:52.337829+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: e\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.510300&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "ETF",
+    "symbol": "510300",
+    "timeframe": "4H",
+    "checked_at": "2026-11-14 13:21:57.228569+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: e\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.510300&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "ETF",
+    "symbol": "510300",
+    "timeframe": "1W",
+    "checked_at": "2026-11-14 13:22:02.243525+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.510300&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "ETF",
+    "symbol": "510300",
+    "timeframe": "1M",
+    "checked_at": "2026-11-14 13:22:07.137811+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.510300&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "A_SHARE",
+    "symbol": "600519",
+    "timeframe": "1D",
+    "checked_at": "2026-11-14 13:22:11.946494+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.600519&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "A_SHARE",
+    "symbol": "600519",
+    "timeframe": "1H",
+    "checked_at": "2026-11-14 13:22:16.863395+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: e\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.600519&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "A_SHARE",
+    "symbol": "600519",
+    "timeframe": "4H",
+    "checked_at": "2026-11-14 13:22:21.710764+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: e\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.600519&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "A_SHARE",
+    "symbol": "600519",
+    "timeframe": "1W",
+    "checked_at": "2026-11-14 13:22:26.592618+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.600519&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "A_SHARE",
+    "symbol": "600519",
+    "timeframe": "1M",
+    "checked_at": "2026-11-14 13:22:31.577034+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.600519&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "US_STOCK",
+    "symbol": "AAPL",
+    "timeframe": "1D",
+    "checked_at": "2026-11-14 13:22:36.549433+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: efinance\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep,…2786 tokens truncated…omedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.000300&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "INDEX",
+    "symbol": "000300",
+    "timeframe": "4H",
+    "checked_at": "2026-11-14 13:23:14.021634+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: e\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.000300&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "INDEX",
+    "symbol": "000300",
+    "timeframe": "1W",
+    "checked_at": "2026-11-14 13:23:18.940663+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.000300&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "INDEX",
+    "symbol": "000300",
+    "timeframe": "1M",
+    "checked_at": "2026-11-14 13:23:23.643423+00:00",
+    "status": "ERROR",
+    "reason": "efinance stock.get_quote_history failed: \\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=1.000300&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "FUTURES",
+    "symbol": "RB_CONT",
+    "timeframe": "1D",
+    "checked_at": "2026-11-14 13:23:28.602568+00:00",
+    "status": "ERROR",
+    "reason": "efinance futures.get_quote_history failed: ce\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=113.rb&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "FUTURES",
+    "symbol": "RB_CONT",
+    "timeframe": "1H",
+    "checked_at": "2026-11-14 13:23:33.535146+00:00",
+    "status": "ERROR",
+    "reason": "efinance futures.get_quote_history failed: nce\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=113.rb&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "FUTURES",
+    "symbol": "RB_CONT",
+    "timeframe": "4H",
+    "checked_at": "2026-11-14 13:23:34.856051+00:00",
+    "status": "ERROR",
+    "reason": "efinance futures.get_quote_history failed: nce\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=113.rb&klt=60&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "FUTURES",
+    "symbol": "RB_CONT",
+    "timeframe": "1W",
+    "checked_at": "2026-11-14 13:23:39.740964+00:00",
+    "status": "ERROR",
+    "reason": "efinance futures.get_quote_history failed: ce\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=113.rb&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "FUTURES",
+    "symbol": "RB_CONT",
+    "timeframe": "1M",
+    "checked_at": "2026-11-14 13:23:44.592032+00:00",
+    "status": "ERROR",
+    "reason": "efinance futures.get_quote_history failed: ce\\common\\getter.py\", line 152, in get_quote_history_single\n    json_response = session.get(\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\efinance\\shared\\__init__.py\", line 14, in request\n    return super(CustomedSession, self).request(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\fangk\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\adapters.py\", line 671, in send\n    raise ProxyError(e, request=request)\nrequests.exceptions.ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&beg=20250101&end=20251231&rtntype=6&secid=113.rb&klt=101&fqt=0 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\n"
+  },
+  {
+    "market": "CRYPTO",
+    "symbol": "BTCUSD",
+    "timeframe": "1D",
+    "checked_at": "2026-11-14 13:23:49.437513+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "CRYPTO",
+    "symbol": "BTCUSD",
+    "timeframe": "1H",
+    "checked_at": "2026-11-14 13:23:49.439516+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "CRYPTO",
+    "symbol": "BTCUSD",
+    "timeframe": "4H",
+    "checked_at": "2026-11-14 13:23:49.442515+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "CRYPTO",
+    "symbol": "BTCUSD",
+    "timeframe": "1W",
+    "checked_at": "2026-11-14 13:23:49.444516+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "CRYPTO",
+    "symbol": "BTCUSD",
+    "timeframe": "1M",
+    "checked_at": "2026-11-14 13:23:49.449034+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "FOREX",
+    "symbol": "EURUSD",
+    "timeframe": "1D",
+    "checked_at": "2026-11-14 13:23:49.452031+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "FOREX",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "checked_at": "2026-11-14 13:23:49.455037+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "FOREX",
+    "symbol": "EURUSD",
+    "timeframe": "4H",
+    "checked_at": "2026-11-14 13:23:49.457545+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "FOREX",
+    "symbol": "EURUSD",
+    "timeframe": "1W",
+    "checked_at": "2026-11-14 13:23:49.460542+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "FOREX",
+    "symbol": "EURUSD",
+    "timeframe": "1M",
+    "checked_at": "2026-11-14 13:23:49.464541+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "COMMODITY",
+    "symbol": "XAUUSD",
+    "timeframe": "1D",
+    "checked_at": "2026-11-14 13:23:49.468061+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "COMMODITY",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "checked_at": "2026-11-14 13:23:49.472061+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "COMMODITY",
+    "symbol": "XAUUSD",
+    "timeframe": "4H",
+    "checked_at": "2026-11-14 13:23:49.475011+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "COMMODITY",
+    "symbol": "XAUUSD",
+    "timeframe": "1W",
+    "checked_at": "2026-11-14 13:23:49.478552+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  },
+  {
+    "market": "COMMODITY",
+    "symbol": "XAUUSD",
+    "timeframe": "1M",
+    "checked_at": "2026-11-14 13:23:49.482554+00:00",
+    "status": "UNSUPPORTED",
+    "reason": "No validated efinance adapter; offline CSV allowed"
+  }
+]

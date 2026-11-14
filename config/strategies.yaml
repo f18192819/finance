@@ -1,0 +1,32 @@
+defaults:
+  ema_fast: 50
+  ema_slow: 200
+  atr_period: 14
+  pivot_left: 3
+  pivot_right: 3
+  internal_left: 2
+  internal_right: 2
+  minimum_rr: 2.0
+  target_r: 3.0
+  tp1_r: 1.5
+  partial_fraction: 0.5
+  stop_atr_buffer: 0.2
+  max_stop_pct: 0.15
+  range_lookback: 20
+  volume_period: 20
+  volume_multiplier: 1.5
+  compression_quantile: 0.3
+  setup_expiry: 12
+  adx_threshold: 20
+  sweep_atr: 0.1
+  equal_tolerance_atr: 0.15
+  score_threshold: 65
+  mode: single_timeframe
+  disabled_factors: []
+weights:
+  trend: 25
+  structure: 25
+  zone: 20
+  volume: 15
+  momentum: 15
+
