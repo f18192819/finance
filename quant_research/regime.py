@@ -37,4 +37,3 @@ def add_regime(frame, threshold=20):
     d["regime_confidence"] = [s.confidence for s in states]
     d["regime_reasons"] = ["; ".join(s.reasons) for s in states]
     return d
-

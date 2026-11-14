@@ -7,4 +7,3 @@ if (-not (Test-Path -LiteralPath $quantPython)) {
     & $quantPython -m pip install -e . --no-deps
 }
 & $quantPython -m streamlit run app.py
-

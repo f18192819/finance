@@ -27,4 +27,3 @@ class InstrumentRegistry:
 
     def all(self):
         return list(self.instruments.values())
-

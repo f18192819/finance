@@ -41,4 +41,3 @@ class Costs:
 def tick_round(price, tick, side):
     value = price / tick
     return round((math.ceil(value - 1e-10) if side > 0 else math.floor(value + 1e-10)) * tick, 10)
-

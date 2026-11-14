@@ -43,4 +43,3 @@ class TrendFollowing(BaseStrategy):
                 signals.append(signal)
                 setup = None
         return signals
-

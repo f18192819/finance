@@ -12,4 +12,3 @@ def compute_features(bars, parameters):
     frame["internal_direction"] = internal["structure_direction"]
     frame, zones = zone_features(frame, parameters)
     return frame, pivots, zones
-

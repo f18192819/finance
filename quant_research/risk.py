@@ -68,4 +68,3 @@ def portfolio_rejection(equity, new_risk, open_risk, correlated_risk, weekly_sta
     if gross > risk.max_gross_exposure + 1e-9:
         return "Gross exposure exceeded"
     return None
-

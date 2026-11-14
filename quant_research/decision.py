@@ -20,4 +20,3 @@ def score_candidate(factors, hard_rejections=(), weights=None, disabled=()):
     reasons = [f"{k}: {'confirmed' if factors.get(k) else 'not confirmed'} ({v})" for k, v in active.items()]
     category = "REJECTED" if hard_rejections else "HIGH_QUALITY" if score >= 80 else "WAIT_CONFIRMATION" if score >= 65 else "EXCLUDED"
     return Decision(score, category, reasons, list(hard_rejections))
-

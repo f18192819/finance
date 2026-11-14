@@ -129,4 +129,3 @@ class ExperimentManager:
                 signals.append(Signal(**row))
         return run_experiment(datasets,instruments,strategies,RiskConfig(**m["config"]["risk"]),
                               costs={s:Costs(**v) for s,v in m["config"]["costs"].items()},manager=self,parent_id=eid,contexts=contexts,signals=signals)
-

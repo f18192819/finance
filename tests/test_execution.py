@@ -130,4 +130,3 @@ def test_trailing_stop_only_effective_next_bar(instrument):
     s=signal(d,timestamp=d.timestamp.iloc[15],target=200)
     r=run(d,instrument,[s],risk=RiskConfig(initial_equity=100000,trailing_atr=1))
     assert r.trades.exit_time.iloc[0]>=d.open_time.iloc[17]
-

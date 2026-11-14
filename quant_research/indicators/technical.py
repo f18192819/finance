@@ -88,4 +88,3 @@ def technical_features(bars, p):
     d["atr_high"] = d.atr_pct.rolling(history, min_periods=20).quantile(.8).shift(1)
     d["compression"] = d.bb_width <= d.bb_width.rolling(history, min_periods=20).quantile(p.get("compression_quantile", .3)).shift(1)
     return d
-

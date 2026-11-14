@@ -59,4 +59,3 @@ def structure_features(bars, p):
     # Overwrite when calculating a second (internal) scale.
     result = bars.drop(columns=list(set(bars.columns) & set(features.columns))).join(features)
     return result, pd.DataFrame(pivots)
-

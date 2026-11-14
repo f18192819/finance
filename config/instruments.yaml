@@ -1,11 +1,11 @@
 - symbol: '510300'
-  name: 娌繁300ETF
+  name: 沪深300ETF
   market: ETF
   provider_symbol: '1.510300'
   tick_size: 0.001
   sector: BROAD_MARKET
 - symbol: '600519'
-  name: 璐靛窞鑼呭彴
+  name: 贵州茅台
   market: A_SHARE
   provider_symbol: '1.600519'
   sector: CONSUMER
@@ -30,11 +30,13 @@
   sector: BROAD_MARKET
   sessions: [['09:30', '16:00']]
 - symbol: '000300'
-  name: 娌繁300鎸囨暟锛堜粎鐮旂┒锛?  market: INDEX
+  name: 沪深300指数（仅研究）
+  market: INDEX
   provider_symbol: '1.000300'
   tradable: false
 - symbol: RB_CONT
-  name: 铻虹汗閽㈣繛缁紙绂佹鐩存帴鎴愪氦鍥炴祴锛?  market: FUTURES
+  name: 螺纹钢连续（禁止直接成交回测）
+  market: FUTURES
   provider_symbol: '113.rb'
   continuous: true
   lot_size: 1
@@ -45,7 +47,8 @@
   settlement_days: 0
   group: CN_METALS
 - symbol: BTCUSD
-  name: Bitcoin锛堝湪绾挎湭鏀寔锛?  market: CRYPTO
+  name: Bitcoin（在线未支持）
+  market: CRYPTO
   currency: USD
   timezone: UTC
   lot_size: 0.001
@@ -53,7 +56,8 @@
   group: CRYPTO
   sessions: [['00:00', '24:00']]
 - symbol: EURUSD
-  name: EURUSD锛堝湪绾挎湭鏀寔锛?  market: FOREX
+  name: EURUSD（在线未支持）
+  market: FOREX
   currency: USD
   timezone: UTC
   lot_size: 1000
@@ -62,11 +66,11 @@
   group: FX
   sessions: [['00:00', '24:00']]
 - symbol: XAUUSD
-  name: Gold锛堝湪绾挎湭鏀寔锛?  market: COMMODITY
+  name: Gold（在线未支持）
+  market: COMMODITY
   currency: USD
   timezone: UTC
   lot_size: 1
   settlement_days: 0
   group: METALS
   sessions: [['00:00', '24:00']]
-

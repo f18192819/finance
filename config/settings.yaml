@@ -7,4 +7,3 @@ adjustment: none
 timeframes: [1H, 4H, 1D, 1W, 1M]
 execution: next_bar_open
 universe_basis: current_watchlist_not_survivorship_free
-

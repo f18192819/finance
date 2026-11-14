@@ -108,4 +108,3 @@ class BacktestResult:
 
 def as_record(value):
     return asdict(value)
-

@@ -35,4 +35,3 @@ def history():
 @pytest.fixture
 def dataset(history):
     return Dataset(history,{"source":"SYNTHETIC_UNIT_TEST_ONLY","timeframe":"1D","adjustment":"none","universe_basis":"synthetic_test_fixture"})
-

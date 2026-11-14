@@ -2,4 +2,3 @@
 from quant_research.app.dashboard import main
 
 main()
-

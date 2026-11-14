@@ -12,7 +12,7 @@ from .service import run_experiment
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description="Multi-Market Quant Research 路 efinance only 路 manual trading")
+    parser = argparse.ArgumentParser(description="Multi-Market Quant Research · efinance only · manual trading")
     sub = parser.add_subparsers(dest="command",required=True)
     probe = sub.add_parser("probe")
     probe.add_argument("--start",default="2025-01-01")
@@ -98,4 +98,3 @@ def main(argv=None):
 
 if __name__=="__main__":
     main()
-

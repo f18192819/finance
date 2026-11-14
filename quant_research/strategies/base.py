@@ -95,4 +95,3 @@ class BaseStrategy(ABC):
 
     @abstractmethod
     def generate_signals(self, data, context=None): ...
-

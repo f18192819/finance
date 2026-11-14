@@ -22,4 +22,3 @@ include = ["quant_research*"]
 testpaths = ["tests"]
 addopts = "-q"
 
-

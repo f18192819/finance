@@ -43,4 +43,3 @@ class TradingJournal:
     def list(self):
         with duckdb.connect(str(self.path),read_only=True) as con:
             return con.execute("SELECT * FROM journal ORDER BY created_at DESC").df()
-

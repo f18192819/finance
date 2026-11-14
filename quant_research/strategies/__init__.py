@@ -7,4 +7,3 @@ STRATEGIES = {s.name: s for s in (TrendFollowing, Breakout, LiquidityReversal)}
 
 def make_strategy(name, parameters=None):
     return STRATEGIES[name](parameters)
-

@@ -52,4 +52,3 @@ class Breakout(BaseStrategy):
                 elif row.close < low.iloc[i]:
                     setup = (i, -1, low.iloc[i], high.iloc[i])
         return signals
-

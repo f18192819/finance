@@ -41,4 +41,3 @@ def performance_metrics(equity_curve, trades, initial_equity):
         time_in_market=time_in_market,max_concentration_hhi=float(equity_curve.concentration_hhi.max()) if "concentration_hhi" in equity_curve else None,
         return_units="fractions", expectancy_units="account_currency", holding_period_units="instrument_bars",
         ratio_note="null means undefined or insufficient sample; CAGR on short samples is unstable")
-

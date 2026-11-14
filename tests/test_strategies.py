@@ -48,4 +48,3 @@ def test_reversal_needs_choch_after_sweep_and_subsequent_ob_retest():
     assert len(signals)==1 and signals[0].timestamp==d.timestamp.iloc[3]
     d.loc[2,"structure_event"]=""
     assert strategy.generate_signals(d)==[]
-

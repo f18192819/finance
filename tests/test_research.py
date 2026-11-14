@@ -43,4 +43,3 @@ def test_journal_has_no_execution_side_effect(tmp_path):
     journal=TradingJournal(tmp_path/"journal.duckdb")
     journal.add({"symbol":"TEST"},"WATCHING","Test only")
     assert journal.list().status.iloc[0]=="WATCHING"
-

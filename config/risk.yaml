@@ -11,4 +11,3 @@ correlation_threshold: 0.8
 correlation_window: 60
 trailing_atr: 0.0
 max_holding_bars: 60
-

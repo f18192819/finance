@@ -34,4 +34,3 @@ class LiquidityReversal(BaseStrategy):
                 elif row.sweep_high and not row.sweep_low:
                     setup = (i, -1, row.high, None)
         return signals
-

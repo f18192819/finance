@@ -296,4 +296,3 @@ class BacktestEngine:
             quantity,quantity,new_risk,timestamp,index,fee,-fee,fee,timestamp)
         self.fills.append(dict(trade_id=trade_id,timestamp=timestamp,symbol=ins.symbol,strategy=signal.strategy,
                                action="ENTRY",side=side,price=price,quantity=quantity,fee=fee,reason="Next available bar"))
-

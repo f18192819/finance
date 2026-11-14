@@ -1,2 +1,1 @@
 """Local research workspace UI."""
-

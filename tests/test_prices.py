@@ -20,4 +20,3 @@ def test_non_affine_price_map_rejected():
     a=make_bars([[10,12,9,11]]).iloc[0]
     b=make_bars([[21,50,19,23]]).iloc[0]
     with pytest.raises(ValueError): infer_price_map(a,b)
-

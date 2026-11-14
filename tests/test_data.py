@@ -86,5 +86,4 @@ def test_offline_source_cannot_impersonate_efinance(instrument,tmp_path):
 
 
 def test_nav_not_ohlcv(instrument):
-    with pytest.raises(DataValidationError): normalize(pd.DataFrame({"鏃ユ湡":["2024-01-01"],"鍗曚綅鍑€鍊?:[1.]}),instrument,"1D")
-
+    with pytest.raises(DataValidationError): normalize(pd.DataFrame({"日期":["2024-01-01"],"单位净值":[1.]}),instrument,"1D")

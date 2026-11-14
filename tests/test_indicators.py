@@ -57,4 +57,3 @@ def test_order_block_requires_structure_break():
     _,zones=zone_features(d,{})
     ob=zones.loc[zones.kind=="ob"].iloc[0]
     assert ob.created_at==d.timestamp.iloc[0] and ob.confirmed_at==d.timestamp.iloc[2]
-

@@ -37,4 +37,3 @@ def test_parameters_independent_and_invalid_rejected(name):
     with pytest.raises(ValueError): make_strategy(name,{"pivot_right":0})
     a,b=make_strategy(name,{"target_r":4}),make_strategy(name)
     assert a.parameters["target_r"]!=b.parameters["target_r"]
-

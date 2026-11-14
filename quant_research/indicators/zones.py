@@ -53,4 +53,3 @@ def zone_features(bars, p):
                                   invalidated_at=None, fully_filled_at=None, fill_ratio=0.))
         snapshots.append(record)
     return bars.join(pd.DataFrame(snapshots, index=bars.index)), pd.DataFrame(zones)
-

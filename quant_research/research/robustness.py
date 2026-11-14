@@ -95,4 +95,3 @@ def correlation_analysis(datasets,instruments,window=60):
     by_sector = returns.T.groupby({s:instruments[s].sector for s in returns.columns}).mean().T.corr()
     return dict(assets=corr,groups=by_group,sectors=by_sector,rolling=returns.rolling(window,min_periods=20).corr(),
                 note="Aligned close-to-close returns; stale/non-overlapping calendars can make correlations unavailable")
-

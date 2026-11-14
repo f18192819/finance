@@ -24,4 +24,3 @@ US_STOCK:
   unmodeled: [regulatory_fees, corporate_actions, borrow_availability]
 FUTURES:
   unmodeled: [contract_specific_fees, variation_margin, historical_margin_schedule, roll_cost]
-

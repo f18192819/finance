@@ -69,4 +69,3 @@ def test_walk_forward_runs_disjoint_test_and_replays(dataset,instrument,tmp_path
     replay,_=manager.reproduce(eid)
     original=json.loads((tmp_path/eid/"metrics.json").read_text(encoding="utf-8"))
     assert original==replay.metrics
-

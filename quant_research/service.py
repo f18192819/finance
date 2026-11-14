@@ -16,4 +16,3 @@ def run_experiment(datasets,instruments,strategies,risk=None,costs=None,contexts
     manager = manager or ExperimentManager()
     eid = manager.save(result,strategies,datasets,instruments,label,parent_id,contexts)
     return result,eid
-
